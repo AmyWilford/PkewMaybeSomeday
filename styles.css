@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+body {
+    background-color: #9CF7ED;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.head-banner {
+    color: white;
+    background-color: black;
+}
+.fa {  
+   font-size: 20px;
+    padding: 10px;
+    margin: 50px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%; 
+    border: 1px solid black;
+  }
+  .fa:hover {
+    color:#9CF7ED;
+    border: 1px solid #9CF7ED;
+}
+ul {
+list-style: none;
+}
+.soldout {
+    color: red;
+    text-decoration: line-through;
+    font-style: italic;
+}
