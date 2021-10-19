@@ -1,16 +1,25 @@
 * {
     font-family: 'Hind Siliguri', sans-serif;
 }
-.full-page, .table {
+.page-content, .table {
     background-color: black;
     color: white;
 }
 h1{
     font-family: 'Open Sans', sans-serif;
+    font-size: 120px;
+    text-shadow: 4px 2px #9CF7ED;
+    margin-top: 50px;
 }
+h2{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+}
+
 nav, footer {
     background-color: #9CF7ED;
-    color: black;
+    color: #2b2d2f;
 }
 .head-banner {
     background-image: url(resources/pkew-banner.png);
@@ -21,44 +30,103 @@ nav, footer {
     padding: 5px;
     margin: 50px 10px;
     text-decoration: none;
-    color: black;
+    color:black;
     border-radius: 50%; 
     background-color: #9CF7ED;
     
   }
   .fa:hover {
     background-color:black;
-    color: black;
     color: #9CF7ED;
 }
 .fa-facebook {
     padding: 5px 9px !important;
 }
+.chevron {
+    padding-top: 40px;
+    width: 60px;
+    animation: fade-slide-up .5s 1s ease-out forwards,
+    pulse 2s 3s ease-out infinite;
+    opacity: 0; 
+}
+hr{
+    color: 2px solid white;
+    opacity: 100%;
+    margin: 20px 120px;
+}
 ul {
 list-style: none;
+}
+.container {
+    padding-top: 40px;
 }
 .video {
     max-width: 700px;
     min-width: 200px;
 }
-button {
-    border-radius: 10px;
-    border: none;
-    background-color: #9CF7ED;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    padding: 5px 30px;
-}
+
 .call-to-action-content {
-    height: 150px;
-    width: 150px;
-    color: black;
-    background-color: #9CF7ED;
-    margin: 20px 5px;
+    height: 200px;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing:0.1em;
 }
+
+.accent{
+    color:#9CF7ED;
+}
+
 .soldout {
     color: red;
     text-decoration: line-through;
     font-style: italic;
 }
+
+.contact-head{
+    margin-bottom: 50px;
+}
+
+.contact {
+    line-height: 1px;
+    font-size: 12px;
+}
+.contact-item {
+    margin: 10px 10px;
+}
+
+#foot {
+    border-top: 2px solid black;
+}
+footer {
+    padding-bottom: 20px;
+}
+
+/*keyframes*/
+@keyframes fade-slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4em);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes pulse {
+    0% {
+        opacity: 1;
+        transform: none;
+    }
+    50% {
+        opacity: .8;
+        transform: scale(.8);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
