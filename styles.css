@@ -1,3 +1,4 @@
+/* general page styles */
 * {
     font-family: 'Hind Siliguri', sans-serif;
 }
@@ -6,25 +7,46 @@
     color: white;
     font-size: 12px;
 }
+.container {
+    padding-top: 30px;
+}
+hr{
+    margin: 40px;
+}
+/* navigation styles */
+
+nav, footer {
+    background-color: #9CF7ED;
+    color: black;
+}
 nav {
     text-transform: uppercase;
 }
+ul {
+    list-style: none;
+    }
+/* head banner styles */
+.head-banner {
+    background-image: url(resources/pkew-banner.png);
+    background-size: cover;
+    width: 100%;
+}
 h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
     text-shadow: 4px 2px #9CF7ED;
-    margin-top: 50px;
+    margin: 60px 0px;
 }
 h2{
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 0.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 button {
     text-align: center;
     background-color: #9CF7ED;
-    padding: 15px;
+    padding: 10px;
     text-transform: uppercase;
     letter-spacing: .10rem;
     font-size: 1rem;
@@ -39,20 +61,10 @@ button:hover {
     cursor: pointer;
     transition: 0.2s ease-in;
 }
-nav, footer {
-    background-color: #9CF7ED;
-    color: #2b2d2f;
-}
-.head-banner {
-    background-image: url(resources/pkew-banner.png);
-    background-size: cover;
-    width: 100%;
-
-}
 .fa {  
-   font-size: 20px;
+   font-size: 15px;
     padding: 5px;
-    margin: 50px 10px;
+    margin: 25px 10px;
     text-decoration: none;
     color:black;
     border-radius: 50%; 
@@ -66,28 +78,22 @@ nav, footer {
 .fa-facebook {
     padding: 5px 9px !important;
 }
-
 hr{
     color: 2px solid white;
     opacity: 100%;
 }
-ul {
-list-style: none;
-}
-.container {
-    padding-top: 30px;
-}
+/* video Styles */
 .video {
     max-width: 700px;
 }
-
+/* call to action content styles */
 .call-to-action-content {
     height: 200px;
     padding: 20px 20px;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
-    letter-spacing:0.1em;
+    letter-spacing:0.1rem;
     animation: fade-slide-up .5s 1s ease-out forwards;
     opacity: 0; 
     position: relative;
@@ -100,33 +106,32 @@ list-style: none;
     opacity: 0;
     transition: .5s ease;
     position: absolute;
-  }
+}
   
-  .call-to-action-content:hover .overlay {
+.call-to-action-content:hover .overlay {
     opacity: 1;
-  }
+}
+
 .accent{
     color:#9CF7ED;
 }
-
+/* table styles */
 .soldout {
     color: red;
     text-decoration: line-through;
     font-style: italic;
 }
-
+/* contact styles */
 .contact-head{
     margin-bottom: 30px;
 }
-
 .contact {
     line-height: 1px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .contact-item {
     padding: 10px 10px;
 }
-
 footer {
     padding-bottom: 20px;
 }
