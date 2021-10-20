@@ -35,7 +35,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 6rem;
     text-shadow: 4px 2px #9CF7ED;
-    margin: 60px 0px;
+    margin: 70px 0px;
 }
 h2{
     font-family: 'Permanent Marker', cursive;
@@ -123,7 +123,7 @@ hr{
 }
 .ticket-link{
     border: 1px solid white;
-    padding: 2px;
+    padding: 3px 8px;
     text-decoration: none;
 }
 
